@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-19T18:27:04 GMT" name="Default Suite" finished-at="2023-12-19T18:28:59 GMT" duration-ms="114952">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nopcommerce.demo.runner.RunCukeTest@7adda9cc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-12-19T18:27:04 GMT" name="nop-commerce-demo-sw-6" finished-at="2023-12-19T18:28:59 GMT" duration-ms="114952">
+      <class name="com.nopcommerce.demo.runner.RunCukeTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.nopcommerce.demo.runner.RunCukeTest@7adda9cc]" started-at="2023-12-19T18:27:05 GMT" name="setUpClass" finished-at="2023-12-19T18:27:06 GMT" duration-ms="1482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@571c2ed8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nopcommerce.demo.runner.RunCukeTest@7adda9cc]" started-at="2023-12-19T18:27:06 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-19T18:27:28 GMT" duration-ms="21896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify User Should Navigate To Computer Page Successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["NopCommerce demo"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nopcommerce.demo.runner.RunCukeTest@7adda9cc]" started-at="2023-12-19T18:27:28 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-19T18:28:32 GMT" duration-ms="64130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Should Navigate To Login Page SuccessFully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["NopCommerce demo Login Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nopcommerce.demo.runner.RunCukeTest@7adda9cc]" started-at="2023-12-19T18:28:32 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-19T18:28:48 GMT" duration-ms="15953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify The Error Message With InValid Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["NopCommerce demo Login Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nopcommerce.demo.runner.RunCukeTest@7adda9cc]" started-at="2023-12-19T18:28:48 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-19T18:28:53 GMT" duration-ms="5414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify User Should Navigate To Computer Page Successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["NopCommerce demo"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.nopcommerce.demo.runner.RunCukeTest@7adda9cc]" started-at="2023-12-19T18:28:53 GMT" name="tearDownClass" finished-at="2023-12-19T18:28:59 GMT" duration-ms="5958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.nopcommerce.demo.runner.RunCukeTest -->
+    </test> <!-- nop-commerce-demo-sw-6 -->
+  </suite> <!-- Default Suite -->
+</testng-results>
